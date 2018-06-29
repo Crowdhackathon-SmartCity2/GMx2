@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">e-Mustoras</string>
+    <string name="welcome_user">Welcome user</string>
+    <string name="plumbers">ΥΔΡΑΥΛΙΚΟΙ</string>
+    <string name="freezers">ΨΥΚΤΙΚΟΙ</string>
+    <string name="gardeners">ΚΗΠΟΥΡΟΙ</string>
+    <string name="all_services">ΟΛΕΣ ΟΙ ΥΠΗΡΕΣΙΕΣ</string>
+    <string name="user_history">USER\'S HISTORY</string>
+    <string name="pending_requests">PENDING REQUESTS</string> 
+</resources>
