@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pending"
+    tools:layout_editor_absoluteY="81dp">
+ 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+
+                        android:id="@+id/pendingTable"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:gravity="top"
+                        android:stretchColumns="0,1,2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="MissingConstraints">
+
+
+                        <TableRow
+                            android:id="@+id/firstRow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ΟΝΟΜΑ  \n"
+                                android:textAllCaps="false"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:typeface="normal"
+                                android:visibility="visible"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="4dp" />
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ΔΙΕΥΘΥΝΣΗ  \n"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ΗΜΕΡΟΜΗΝΙΑ   \n"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ΕΠΙΛΟΓΗ\n"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</android.support.constraint.ConstraintLayout>
