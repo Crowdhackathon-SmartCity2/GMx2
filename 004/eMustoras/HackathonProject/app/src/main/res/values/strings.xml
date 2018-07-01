@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">e-Mustoras</string>
+    <string name="welcome_user">Καλωσόρισες</string>
+    <string name="plumbers">ΥΔΡΑΥΛΙΚΟΙ</string>
+    <string name="freezers">ΨΥΚΤΙΚΟΙ</string>
+    <string name="gardeners">ΚΗΠΟΥΡΟΙ</string>
+    <string name="all_services">ΟΛΕΣ ΟΙ ΥΠΗΡΕΣΙΕΣ</string>
+    <string name="user_history">ΙΣΤΟΡΙΚΟ ΧΡΗΣΤΗ</string>
+    <string name="pending_requests">ΕΚΚΡΕΜΗΣ ΑΙΤΗΣΕΙΣ</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
